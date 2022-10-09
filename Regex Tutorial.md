@@ -18,9 +18,9 @@ The specific text string known as a regular expression (Regex or Regexp) is used
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](###Bondaries)
-- [Back-references](###Back-references)
-- [Look-ahead-and-Look-behind](###Look-ahead-and-Look-behind)
+- [Boundaries](#boundaries)
+- [Back-references](#back-references)
+- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
@@ -132,7 +132,7 @@ lazy and greedy You may match the Greedy with the Lazy using quantifiers. Being 
 
 ([\da-z\.-]+) Because it permits character matching once up to an unlimited number of times, the "+" operator is greedy.
 
-### Bondaries
+### Boundaries
 
 Most regex languages define a word boundary as a place between /w and /w (non-word char) or at the start or end of a string if it contains a word character ([0-9A-Za-z_]). Therefore, it would match before the 1 or after the 2 in the string "-12." It's not a word character, the dash.
 
@@ -144,7 +144,7 @@ Backreferences point to a captured group that was previously used in the same re
 
 Lookbehind. asserts that foo is the value that comes before the present location in the string. (?!foo) Negative Lookahead. Declares that the character that follows the current location in the string is not the character foo.
 
-### Author
+## Author
 
 Github link: git@github.com:ahanna2/Module-17.git
 Email: alanjalil@yahoo.com
