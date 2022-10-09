@@ -18,9 +18,9 @@ The specific text string known as a regular expression (Regex or Regexp) is used
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries] (### Bondaries)
-- [Back-references] (### Back-references)
-- [Look-ahead-and-Look-behind] (### Look-ahead and Look-behind)
+- [Boundaries](###Bondaries)
+- [Back-references](###Back-references)
+- [Look-ahead-and-Look-behind](###Look-ahead-and-Look-behind)
 
 ## Regex Components
 
